@@ -1,0 +1,76 @@
+<html>
+<head>
+  <title>Contato</title>
+  <meta charset="utf-8">
+  
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Quattrocento+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/charles.css">
+
+
+
+
+
+<link rel="icon" id="favicon" href="imagem/01.jpg" type="image/x-icon">
+
+
+<style>
+  body{font-family: Arial, Melvetica, sans-serif}
+  .content{display: flex;justify-content: center;}
+  .contato{width: 100%; max-width: 500px;}
+  .form{display: flex;flex-direction: column;}
+  .field{padding: 10px; margin-bottom: 15px; border: 1px solid #DDD; border-radius: 5px; font-family: Arial, Melvetica, sans-serif; font-size: 16px;}
+  textarea{height: 150px;}
+</style>
+
+
+</head>
+ 
+<body>
+
+  <nav class="navbar navbar-default navbar-reprograma">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="index.html" class="navbar-brand">CHARLES VILELA</a>
+        <button class="navbar-toggle glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#navbar-CharlesVilela"></button>
+
+
+      </div>
+
+
+       <ul id="navbar-CharlesVilela" class="nav navbar-nav navbar-right collapse navbar-collapse">
+    <li><a href="index.html">Charles Vilela</a></li>
+    <li><a href="biografia.html">Biografia</a></li>
+    <li class="active"><a href="contato.html">Contato</a></li>
+  </ul>
+    
+
+
+    </div>
+  </nav>
+
+  <section class="content">
+    <div class="contato">
+      <h3>Formulario de Contato</h3>
+      <form class="form" method="POST" action="./email.php">
+        <input class="field" name="name" placeholder="Nome">
+        <input class="field" name="email" placeholder="E-mail">
+          <textarea class="field" name="mesage" placeholder="Digite sua mensagem aqui"></textarea>
+          <input class="field" type="submit" value="Enviar">
+      </form>
+    </div>
+  </section>
+ 
+  
+</body>
+</html>
